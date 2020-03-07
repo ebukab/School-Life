@@ -1,0 +1,20 @@
+.account{
+    height: 92vh;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    .tab_1{
+        width: 20%;
+        border-right: 1px solid black;
+    }
+
+    .tab_2{
+        width: 30%;
+        border-right: 1px solid black;
+    }
+
+    .tab_3{
+        width: 40%;
+    }
+}

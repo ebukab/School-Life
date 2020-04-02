@@ -1,0 +1,21 @@
+.login{
+
+    .subHeading{
+        opacity: .8;
+    }
+
+    .form{
+        padding-top: .2rem;
+    }
+
+    .forgotPassword{
+        margin-left: 1rem;
+        padding-bottom: .7rem;
+        border-bottom: 1px solid black;
+        opacity: .6;
+
+        &:hover{
+            opacity: 1;
+        }
+    }
+}

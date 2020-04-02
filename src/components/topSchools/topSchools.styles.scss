@@ -1,0 +1,65 @@
+$grey-color: #f2f2f2;
+$primary-color: #C7945F;
+$primary-color-dark: #775839;
+$primary-color-light: #f9f4ef;
+
+.topSchools{
+    width: 100%;
+    margin: 4rem 0;
+
+    .title{
+        font-size: 25px;
+    }
+
+    .schoolItem{
+        width:22rem;
+    }
+
+    .heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    .footer{
+        margin-top: 30px;
+    }
+
+    .schools{
+        margin: .5rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 23rem;
+
+    }
+
+    .findSchool{
+        text-align: right;
+
+        .button{
+            padding: .5rem;
+            font-size: 20px;
+            // border: 1px solid $primary-color;
+            border-bottom: 1px solid black;
+            transition: all .25s ease-in;
+            // border-radius: 5px;
+            // color: $primary-color;
+            color : grey;
+            // background-color: black;
+            
+            &:hover{
+                // color: black;
+                // // background-color: $primary-color;
+                // background-color: white;
+                color : black;
+            }
+        }
+
+        .fas{
+            font-size: 20px;
+            margin-right: .5rem;
+        }
+    }
+}

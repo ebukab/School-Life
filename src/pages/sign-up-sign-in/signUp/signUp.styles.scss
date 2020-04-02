@@ -1,0 +1,42 @@
+$grey-color: #f2f2f2;
+$primary-color: #C7945F;
+$primary-color-dark: #775839;
+$primary-color-light: #f9f4ef;
+
+.signUp{
+    .title{
+    }
+
+    .subHeading{
+        opacity: .8;
+    }
+
+    .form{
+        
+    }
+
+    .sideBySide{
+        display: grid;
+        grid-template-columns: 47% 47%;
+        grid-column-gap: 6%;
+    }
+
+
+    .sideBySidePasswordRules{
+        display: grid;
+        grid-template-columns: 47% 47%;
+        grid-column-gap: 6%;
+        margin: .5rem 0 1.5rem 0;
+        opacity: .7;
+
+        .rule{
+            margin: .2rem 0;
+        }
+
+        .bullet{
+            margin-right: .4rem;
+            color: black;
+        }
+    }
+
+}

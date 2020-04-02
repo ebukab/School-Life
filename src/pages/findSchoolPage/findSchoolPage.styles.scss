@@ -1,0 +1,44 @@
+.search-school{
+    width: 100%;
+    min-height:  100vh;
+    padding: 0 6rem;
+
+    .search-box{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 47.5% 47.5%;
+        grid-column-gap: 5%;
+        margin: 2rem 0rem;
+    }
+
+    .schoolItem{
+        width: 20rem;
+        margin-bottom: 1rem;
+        // margin-right: 1rem;
+    }
+
+    .country-select{
+        height: 50%;
+        width: 100%;
+        font-family: inherit;
+        font-size: 18px;
+        border: 1px solid transparent;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .schools{
+        // background-color: blue;
+        margin: 3rem 0;
+        float: right;
+        width: 100%;
+        // text-align: center;
+        display: grid;
+        grid-template-columns: 22% 22% 22% 22%;
+        grid-column-gap: 2%;
+        grid-row-gap: 3rem;
+        justify-content: space-between;
+    }
+}

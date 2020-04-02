@@ -2,19 +2,24 @@
     height: 92vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     width: 100%;
+    background-color: red;
 
     .tab_1{
         width: 20%;
-        border-right: 1px solid black;
+        border-right: .5px solid #e5e5e5;
+        background-color: white;
     }
 
     .tab_2{
         width: 30%;
-        border-right: 1px solid black;
+        border-right: .5px solid #e5e5e5;
+        background-color: white;
     }
 
     .tab_3{
-        width: 40%;
+        width: 50%;
+        background-color: white;
     }
 }

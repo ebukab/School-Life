@@ -1,0 +1,47 @@
+$grey-color: #f2f2f2;
+$primary-color: #C7945F;
+$primary-color-dark: #775839;
+$primary-color-light: #f9f4ef;
+
+body{
+  font-family: 'Acme';
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.hide{
+  display: none;
+}
+
+.submitButton{
+  border: 1px solid black;
+  font-size: 20px;
+  font-family: inherit;
+  width: 30%;
+  padding: .5rem;
+  margin-top: 2rem;
+  transition: all .25s ease-in;
+  background-color: black;
+  color: white;
+}
+
+.submitButton:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+// #E9F0FE
+
+.authError{
+  color: red;
+  margin-top: .5rem;
+  display: flex;
+  flex-direction: column;
+}
